@@ -27,5 +27,3 @@ app.post("/payments/create", async (request, response)=>{
 // Listen command
 
 exports.api = functions.https.onRequest(app);
-
-// http://localhost:5001/clone-app-31d82/us-central1/api
